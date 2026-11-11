@@ -19,8 +19,7 @@ def get_initials(name):
 
 def generate_id(initials, enrollment_year):
     year = enrollment_year % 100
-    stud_id = f"MKSU/{initials}/{year}"
-    return stud_id
+    return f"MKSU/{initials}/{year}"
 
 
 if __name__ == "__main__":
